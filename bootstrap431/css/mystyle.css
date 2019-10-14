@@ -1,0 +1,27 @@
+.navbar {
+  border-bottom: 0.7px solid rgba(25, 25, 25, 0.774);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: rgba(0, 255, 255, 0.795) !important;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid aqua;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.nav-item {
+  padding: 0 10px 0 10px;
+}
