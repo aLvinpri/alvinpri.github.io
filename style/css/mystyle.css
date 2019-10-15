@@ -1,3 +1,10 @@
+/* Fonts
+font-family: 'Merriweather',
+serif;
+font-family: 'Montserrat',
+sans-serif;
+*/
+
 .navbar {
   border-bottom: 0.7px solid rgba(25, 25, 25, 0.774);
 }
@@ -24,4 +31,21 @@
 
 .nav-item {
   padding: 0 10px 0 10px;
+}
+
+.jumbotron {
+  min-height: 500px;
+  background-color: #1D2B50;
+}
+
+h1,
+h2 {
+  font-family: 'Merriweather',
+    serif;
+}
+
+h3,
+h4 {
+  font-family: 'Montserrat',
+    sans-serif;
 }
